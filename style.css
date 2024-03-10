@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(113, 180, 241);
+}
+.navcontaners{
+    display: flex;
+    text-align: center;
+    gap: 5rem;
+    height: 5rem;
+    width: 100%;
+    border: 2px solid black;
+    background-color:#068edd;
+    color: black;
+    position: fixed;
+    z-index: 1000;
+}
+p{
+    text-align: center;
+    font-size:30px;
+}
+.maincaotainer{
+    height:5rem;
+    width: 100%;
+   
+}
+.min{
+    display: flex; 
+}
+.distance{
+    display: flex;
+    gap: 19px;
+}
+ 
+
+li{
+    list-style: none;
+}
+.firsnav{
+    height: 4rem;
+    width: 20rem;
+    margin-left:5rem;
+    text-align: center;
+    font-size: 20px;
+    margin-top:1rem;
+   
+}
+.secnav{
+    height: 4rem;
+    width: 30rem;
+    margin-left:25rem;
+    text-align: center;
+    font-size: 20px;
+    margin-top:1rem;
+}
+.thirnav{
+    height: 4rem;
+    margin-top:0.5rem;
+}
+button{
+    height: 3rem;
+    width:10rem;
+    font-size:1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+.yellow{
+    color: yellow;
+}
+.home:hover{
+    color: yellow;   
+}
+button:hover{
+    background-color: rgb(59, 59, 165);
+}
+.firstbody{
+    height:30rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+.box{
+    height:8rem;
+    width:8rem;
+    background-color:purple;
+    margin:0.2rem;
+    border: 2px solid red;
+    border-radius:10px;
+    text-align: center;
+    font-size: 30px;
+    padding-top:3rem;
+}
+.firstdiv {
+    height: 28rem;
+    width: 20rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    gap:10px;
+}
+.seconddiv{
+    height:28rem;
+    width: 25rem;
+    border: 2px solid black;    
+}
+#sbox2{
+   
+    margin-left:8.9rem;
+}
+.towdives{
+    display: flex;
+}
+.thirddiv{
+    height:28rem;
+    width: 25rem;
+  
+    border: 2px solid black;
+}
+.hit{
+    margin-left:10rem;
+}
+.new{
+    display: flex;
+}
+.mar{
+    margin-top:1.6rem;
+}
+.section1{
+   
+    width: 100%;
+    padding: 5px;
+}
+.fourdivs{
+    display: flex;
+    justify-content: space-around;
+    height:29rem;
+    width: 100%;
+}
+.fsdiv{
+    height:28rem;
+    width: 20rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+.s2div{
+    height: 28rem;
+    width: 25rem;
+    border: 2px solid black;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    
+}
+.possition{
+    background-color: green;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+.box3{
+    margin-top: 8.5rem;
+}
+.t3div{
+ 
+    height: 28rem;
+    width: 25rem;
+    border: 2px solid black;
+}
+.maintext{
+    height:30rem;
+    width: 100%;
+    padding: 5px;
+}
+.textdiv{
+    height: 28rem;
+    width: 25rem;
+    border: 2px solid black;
+    margin-left:42rem;
+    overflow-y: auto;
+}
+.flex{
+    display: flex;
+}
+.left{
+    position: relative;
+    margin-left:8.9rem;
+}
+.upper {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10px;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    top: 75rem;
+    margin-left: 7rem;
+}
+.mainbootamsection{
+    width: 100%;
+}
+.bootamfirstdiv{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+.firstkeybord{
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    justify-content: center;
+    gap:1rem;
+}
+.secondkeybord{
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    justify-content: center;
+    gap:1rem;
+}
+
+
+.thirdkeybord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    margin:1rem;
+}
+#HMM{
+    margin-left:76rem;
+}
+.forthkeybord{
+    display: flex;
+    flex-direction:row; 
+
+    align-items: center; 
+    justify-content: center;
+    gap:1rem;
+}
+#ht{
+    background-color: rgb(69, 69, 140);
+    width:55rem;
+}
+.fifthkeybord{
+    display: flex;
+    flex-direction:row; 
+    align-items: center; 
+    justify-content: center;
+    gap: 13rem;
+}
+#center{
+    margin-left:53.9rem;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color: whitesmoke;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i {
+    margin-top:1rem;
+    font-size: 40px;
+    margin-right: 5rem;
+}
+.icons i:hover{
+    background-color: green;
+}
+.arrow{
+    position: fixed;
+    width: 50px;
+    bottom: 40px;
+    right: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 50px 0px  0px 50px;
+}
